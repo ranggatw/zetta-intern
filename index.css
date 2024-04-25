@@ -1,0 +1,219 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	scroll-behavior: smooth;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  font-family: 'Roboto';
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.bg-section-1 {
+  background-color: #262E5A;
+}
+
+.wrapper-sec-1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+	height: 500px;
+  color: white;
+	padding-top: 150px;
+}
+
+.font-section-1 {
+  font-size: 1.25em;
+    line-height: 1.8;
+}
+
+.simple-pricing {
+  font-size: 6rem;
+}
+
+.the-most {
+	text-align: center;
+  margin-top: 2em;
+  font-size: 1.25em;
+	width: 600px;
+	word-spacing: 2px;
+}
+
+.card-section {
+	display: flex;
+	justify-content: center;
+	gap: 3em;
+	margin-top: -10em;
+}
+
+.card {
+	width: 300px;
+	background-color: white;
+	height: 400px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.card:hover {
+	transition: all 0.5s ease;
+-ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); }
+
+.card-wrapper {
+	padding: 2em;
+}
+
+.card-title {
+	font-size: 1.2em;
+	background-color: #3C4252;
+	height: 1.2em;
+	display: flex;
+	align-items: center;
+	padding: 0.8em 1.2em;
+	color: white;
+}
+
+.card-title-discount {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #3C4252;
+}
+
+.card-title-save{
+		font-size: 0.8em;
+		margin-right: 30px;
+		align-items: center;
+		color: white;
+}
+
+.card-list-project {
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+}
+
+.wrapper-prize {
+	display: flex; 
+	justify-content: center;
+	padding: 12px;
+}
+
+.project-number {
+	font-weight: 600;
+}
+
+.project-dollar {
+	position: absolute; 
+	left: -10px; 
+	font-size: 1.3em;	
+}
+
+.project-price {
+	font-size: 5em;
+	font-weight: 300;
+}
+
+.grey-text {
+	color: darkgray;
+}
+
+.button-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1em;
+}
+
+.button-buy {
+	background-color: #039BE5;
+	width: 120px;
+	height: 40px;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 4px;
+}
+
+.faq-wrapper {
+	padding-bottom: 4em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.faq-width {
+	width: 900px;
+	display: flex;
+	gap: 4em;
+}
+
+.faq-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 6em;
+}
+
+.faq {
+	color: #6A6A6A;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.faq-subtitle {
+	color: #6A6A6A;
+	font-size: 1.2em;
+	font-weight: 400;
+	margin-top: 1em;
+}
+
+.faq-desc {
+	color: #6A6A6A;
+	font-size: 1.2em;
+	font-weight: 200;
+	margin-top: 1em;
+}
+
+.faq-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 2em;
+}
